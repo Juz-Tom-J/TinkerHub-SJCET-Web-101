@@ -1,0 +1,197 @@
+.Title{
+    text-align: center;
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 60px;
+}
+
+.Sub-Heading{
+    text-align: center;
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 25px;
+}
+
+.Official-Poster{
+    width: 400px;
+}
+
+.Official-Poster-Div{
+    display: flex;
+    justify-content: center;
+}
+
+.Workshops{
+    text-align: center;
+    color: indigo;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-top: 50px;
+    height: 50px;
+}
+.box-heading{
+    background-color: rgb(179, 245, 214);
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: -10px;
+    margin-block-start: 50px;
+}
+
+.box{
+    background-color: rgb(179, 245, 214);
+    height: 700px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: -10px;
+}
+
+.Python-Poster{
+    display: justify;
+    width: 400px;
+    margin: 30px;
+}
+
+
+.Python-Poster-Div{
+    text-align: center;
+    display: absolute;
+    justify-content: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 25px;
+}
+
+.Python{
+    background-color: yellow;
+    text-align: center;
+    display: absolute;
+    justify-content: center;
+}
+
+.Web-Poster{
+    width: 400px;
+    margin-right: 50px;
+}
+
+.Web-Poster-Div{
+    text-align: center;
+    display: absolute;
+    justify-content: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 25px;
+}
+
+.Web{
+    background-color: orangered;
+    text-align: center;
+    display: absolute;
+    justify-content: center;
+}
+
+.Flutter-Poster{
+    width: 400px;
+    margin-right: 50px;
+}
+
+.Flutter-Poster-Div{
+    text-align: center;
+    display: absolute;
+    justify-content: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 25px;
+}
+
+.Flutter{
+    background-color: mediumturquoise;
+    text-align: center;
+    display: absolute;
+    justify-content: center;
+}
+
+.Register-Link{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-decoration: none;
+    color: black;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+}
+
+.Register-Link:hover{
+    color: whitesmoke;
+}
+
+body{
+    background-color: darkslateblue;
+}
+
+@media screen and (max-width: 400px){
+    .Official-Poster{
+        width: 350px;
+    }
+    
+    .Python-Poster-Div{
+        text-align: center;
+        display: absolute;
+        flex-direction: row;
+        justify-content: center;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-size: 15px;
+
+    }
+    .Python-Poster{
+        display: justify;
+        width: 300px;
+        margin: 0px;
+    }
+
+    .Python{
+        text-align: center;
+        display: absolute;
+        justify-content: center;
+    }
+
+    .Web-Poster-Div{
+        text-align: center;
+        display: absolute;
+        flex-direction: row;
+        justify-content: center;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-size: 15px;
+
+    }
+    .Web-Poster{
+        display: justify;
+        width: 300px;
+        margin: 0px;
+    }
+
+    .Web{
+        text-align: center;
+        display: absolute;
+        justify-content: center;
+    }
+
+    .Flutter-Poster-Div{
+        text-align: center;
+        display: absolute;
+        flex-direction: row;
+        justify-content: center;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-size: 15px;
+
+    }
+    .Flutter-Poster{
+        display: justify;
+        width: 300px;
+        margin: 0px;
+    }
+
+    .Flutter{
+        text-align: center;
+        display: absolute;
+        justify-content: center;
+    }
+
+}
